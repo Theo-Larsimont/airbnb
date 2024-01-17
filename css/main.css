@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-hide {
+  @apply hidden
+}
+
+.btn_visible {
+  @apply flex
+}
+
+.btn-carte-effect-visible {
+  @apply opacity-100 transition duration-500
+}
+
+.btn-carte-effect-hidden {
+  @apply opacity-0 transition duration-300
+}
+
